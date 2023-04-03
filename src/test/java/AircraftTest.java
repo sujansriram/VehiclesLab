@@ -10,7 +10,7 @@ public class AircraftTest {
 
     @BeforeEach
     public void setUp(){
-        aircraft = new Aircraft(12, 2, PRIVATEJET);
+        aircraft = new Aircraft(12, 2, AircraftType.PRIVATEJET);
     }
 
     @Test
@@ -20,7 +20,7 @@ public class AircraftTest {
 
     @Test
     public void canGetAircraftValue(){
-        assertThat(aircraft.getValue()).isEqualTo(100,000.00);
+        assertThat(aircraft.getAircraftType().getAirCraftValue()).isEqualTo(100000.00);
     }
 
 }
