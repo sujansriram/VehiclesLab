@@ -18,7 +18,7 @@ public class VehicleTest {
     }
 
     @Test
-    public void canGetTravelType(){
+    public void canGetTravelling(){
         assertThat(vehicle.travelling()).isEqualTo("I am not sure...");
     }
 
