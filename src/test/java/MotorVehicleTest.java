@@ -22,5 +22,4 @@ public class MotorVehicleTest {
         assertThat(motorVehicle.getManual()).isEqualTo(false);
     }
 
-
 }
