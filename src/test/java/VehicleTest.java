@@ -9,12 +9,12 @@ public class VehicleTest {
 
     @BeforeEach
     public void setUp(){
-        vehicle = new Vehicle(5);
+        vehicle = new Car("Ford", 10000.00,5, 4, false);
     }
 
     @Test
     public void canGetValue(){
-        assertThat(vehicle.getValue()).isEqualTo(0);
+        assertThat(vehicle.getValue()).isEqualTo(10000.00);
     }
 
     @Test

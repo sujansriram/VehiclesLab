@@ -1,12 +1,16 @@
-public class MotorVehicle extends Vehicle {
+public abstract class MotorVehicle extends Vehicle {
 
     private int numberOfWheels;
     private boolean manual;
+    private String brandName;
+    private double value;
 
-    public MotorVehicle(int maxOccupancy , int numberOfWheels, boolean manual) {
+    public MotorVehicle(String brandName, double value, int maxOccupancy , int numberOfWheels, boolean manual) {
         super(maxOccupancy);
         this.numberOfWheels = numberOfWheels;
         this.manual = manual;
+        this.brandName = brandName;
+        this.value = value;
     }
 
     public int getNumberOfWheels() {
@@ -15,6 +19,10 @@ public class MotorVehicle extends Vehicle {
 
     public boolean getManual() {
         return this.manual;
+    }
+
+    public double getValue(){
+        return this.value;
     }
 
 }

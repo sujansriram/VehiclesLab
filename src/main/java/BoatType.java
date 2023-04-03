@@ -8,7 +8,6 @@ public enum BoatType {
     OILTANKER(50000000.00, true);
 
 
-
     private double value;
     private boolean anchor;
 
@@ -24,6 +23,5 @@ public enum BoatType {
     public boolean getAnchor(){
         return this.anchor;
     }
-
 
 }
