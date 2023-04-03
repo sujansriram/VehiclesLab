@@ -26,9 +26,9 @@ public class GarageTest {
     public void canAddVehicle(){
         garage.addVehicle(boat);
         garage.addVehicle(vehicle);
-        assertThat(garage.getSize()).isEqualTo(4);
+        assertThat(garage.getVehicleCount()).isEqualTo(4);
     }
-    
+
     @Test
     public void canGetTotalValue(){
         assertThat(garage.getTotalValue()).isEqualTo(100000.00);
