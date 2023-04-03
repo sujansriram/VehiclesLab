@@ -13,8 +13,8 @@ public class Aircraft extends Vehicle{
         return this.numberOfEngines;
     }
 
-    public AircraftType getAircraftType(){
-        return this.aircraftType;
+    public double getValue(){
+        return this.aircraftType.getAirCraftValue();
     }
 
 }

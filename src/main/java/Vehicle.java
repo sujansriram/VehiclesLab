@@ -1,14 +1,14 @@
 public class Vehicle {
 
     private int maxOccupancy;
-    private int value;
+    private double value;
 
     public Vehicle(int maxOccupancy) {
         this.maxOccupancy = maxOccupancy;
         this.value = 0;
     }
 
-    public int getValue() {
+    public double getValue() {
         return this.value;
     }
 

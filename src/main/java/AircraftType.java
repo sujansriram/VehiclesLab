@@ -16,5 +16,4 @@ public enum AircraftType {
         return this.value;
     }
 
-
 }

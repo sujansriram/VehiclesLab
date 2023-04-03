@@ -20,7 +20,7 @@ public class AircraftTest {
 
     @Test
     public void canGetAircraftValue(){
-        assertThat(aircraft.getAircraftType().getAirCraftValue()).isEqualTo(100000.00);
+        assertThat(aircraft.getValue()).isEqualTo(100000.00);
     }
 
 }
