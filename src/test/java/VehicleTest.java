@@ -1,3 +1,4 @@
+import Models.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -31,7 +32,5 @@ public class VehicleTest {
         assertThat(aircraft.value()).isEqualTo("this aircraft is worth £100000.0.");
         assertThat(vehicle.value()).isEqualTo("this car is worth £10000.0.");
     }
-
-
 
 }

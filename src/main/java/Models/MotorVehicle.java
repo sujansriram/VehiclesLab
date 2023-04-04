@@ -1,3 +1,5 @@
+package Models;
+
 public abstract class MotorVehicle extends Vehicle {
 
     private int numberOfWheels;

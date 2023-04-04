@@ -1,3 +1,5 @@
+import Models.Aircraft;
+import Models.AircraftType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

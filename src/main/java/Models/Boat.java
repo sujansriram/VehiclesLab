@@ -1,3 +1,5 @@
+package Models;
+
 public class Boat extends Vehicle{
 
     private BoatType boatType;

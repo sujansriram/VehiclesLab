@@ -1,3 +1,5 @@
+package Models;
+
 import Interfaces.IValuable;
 
 public class Wristwatch implements IValuable {

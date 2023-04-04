@@ -1,3 +1,5 @@
+import Models.Boat;
+import Models.BoatType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,3 +1,5 @@
+import Models.Car;
+import Models.MotorVehicle;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

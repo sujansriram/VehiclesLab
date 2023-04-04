@@ -1,3 +1,5 @@
+package Models;
+
 public enum BoatType {
 
     FISHINGBOAT(10000.00, false),

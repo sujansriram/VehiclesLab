@@ -1,3 +1,5 @@
+package Models;
+
 import Interfaces.IValuable;
 
 import java.util.ArrayList;

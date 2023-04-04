@@ -1,3 +1,5 @@
+package Models;
+
 public enum AircraftType {
 
     HELICOPTER(50000.00),

@@ -1,3 +1,5 @@
+package Models;
+
 import Interfaces.IValuable;
 
 public abstract class Vehicle implements IValuable {

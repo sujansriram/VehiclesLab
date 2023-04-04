@@ -1,4 +1,6 @@
-public class Aircraft extends Vehicle{
+package Models;
+
+public class Aircraft extends Vehicle {
 
     private int numberOfEngines;
     private AircraftType aircraftType;
