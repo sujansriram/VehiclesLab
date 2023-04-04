@@ -8,16 +8,12 @@ public enum BoatType {
     OILTANKER(50000000.00, true);
 
 
-    private double value;
+    protected double value;
     private boolean anchor;
 
     BoatType(double value, boolean hasAnchor){
         this.value = value;
         this.anchor = hasAnchor;
-    }
-
-    public double getBoatValue(){
-        return this.value;
     }
 
     public boolean getAnchor(){

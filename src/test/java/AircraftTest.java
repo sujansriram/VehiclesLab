@@ -23,4 +23,11 @@ public class AircraftTest {
         assertThat(aircraft.getValue()).isEqualTo(100000.00);
     }
 
+    @Test
+    public void returnsTravelling(){
+        assertThat(aircraft.travelling()).isEqualTo("flown in the air");
+        assertThat(aircraft.travelling(10000)).isEqualTo("flown 10000 miles in the air");
+        assertThat(aircraft.travelling(0)).isEqualTo("This aircraft is brand new!");
+    }
+
 }

@@ -3,7 +3,7 @@ public abstract class MotorVehicle extends Vehicle {
     private int numberOfWheels;
     private boolean manual;
     private String brandName;
-    private double value;
+    protected double value;
 
     public MotorVehicle(String brandName, double value, int maxOccupancy , int numberOfWheels, boolean manual) {
         super(maxOccupancy);
@@ -24,5 +24,19 @@ public abstract class MotorVehicle extends Vehicle {
     public double getValue(){
         return this.value;
     }
+
+    public String travelling(){
+        return "driven on the road";
+    }
+
+    public String travelling(int mileage){
+        if (mileage <= 0){
+            return "This motor-vehicle is brand new!";
+        } else {
+            return "driven " + mileage + " miles on the road";
+        }
+    }
+
+
 
 }

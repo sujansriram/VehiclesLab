@@ -22,4 +22,10 @@ public class MotorVehicleTest {
         assertThat(motorVehicle.getManual()).isEqualTo(false);
     }
 
+    @Test
+    public void returnsTravelling(){
+        assertThat(motorVehicle.travelling()).isEqualTo("driven on the road");
+        assertThat(motorVehicle.travelling(10000)).isEqualTo("driven 10000 miles on the road");
+        assertThat(motorVehicle.travelling(0)).isEqualTo("This motor-vehicle is brand new!");
+    }
 }

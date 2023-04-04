@@ -6,14 +6,10 @@ public enum AircraftType {
     BLIMP(20000.00),
     FIGHTERJET(1000000.00);
 
-    private double value;
+    protected double value;
 
     AircraftType(double value){
         this.value = value;
-    }
-
-    public double getAirCraftValue(){
-        return this.value;
     }
 
 }

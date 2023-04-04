@@ -1,19 +1,15 @@
-public abstract class Vehicle {
+import Interfaces.IValuable;
+
+public abstract class Vehicle implements IValuable {
 
     private int maxOccupancy;
-    private double value;
 
     public Vehicle(int maxOccupancy) {
         this.maxOccupancy = maxOccupancy;
-        this.value = 0;
     }
 
-    public double getValue() {
-        return this.value;
-    }
+//    public abstract double getValue();
 
-    public String travelling(){
-        return "I am not sure...";
-    }
+    public abstract String travelling();
 
 }

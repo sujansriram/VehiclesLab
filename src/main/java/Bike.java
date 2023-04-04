@@ -4,5 +4,8 @@ public class Bike extends MotorVehicle {
         super(brandName, value, maxOccupancy, numberOfWheels, manual);
     }
 
+    public String value(){
+        return "this bike is worth £" + this.value + ".";
+    }
 
 }

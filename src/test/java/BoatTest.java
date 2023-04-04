@@ -22,4 +22,11 @@ public class BoatTest {
         assertThat(boat.hasAnchor()).isEqualTo(false);
     }
 
+    @Test
+    public void returnsTravelling(){
+        assertThat(boat.travelling()).isEqualTo("sailed on the water");
+        assertThat(boat.travelling(10000)).isEqualTo("sailed 10000 miles on the water");
+        assertThat(boat.travelling(0)).isEqualTo("This boat is brand new!");
+    }
+
 }
